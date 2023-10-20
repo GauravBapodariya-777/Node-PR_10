@@ -40,6 +40,6 @@ routes.put('/updateSubcategory_A_P_I',commonController.updateSubcategory);
 routes.post('/addProduct_A_P_I',image,commonController.addProduct);
 routes.get('/viewProduct_A_P_I',commonController.viewProduct);
 routes.delete('/deleteProduct_A_P_I',commonController.deleteProduct);
-routes.put('/updateProduct_A_P_I',commonController.updateProduct);
+routes.put('/updateProduct_A_P_I',image,commonController.updateProduct);
 
 module.exports = routes;
