@@ -7,7 +7,7 @@ const verifyToken = (req, res, next) => {
   }
     const finalToken = token.slice(7);
 
-    jwt.verify(finalToken, 'rudra', (err, decoded) => {
+    jwt.verify(finalToken, 'gaurav', (err, decoded) => {
         if (err) {
             return res.json({ message: 'Token is not valid' });
         }
